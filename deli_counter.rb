@@ -18,6 +18,7 @@ def now_serving(katz_deli)
   if array.length >= 1
     katz_deli.each do |next_person| 
       puts "Currently serving #{next_person}."
+    end
   else
     puts "There is nobody waiting to be served!"
   end
