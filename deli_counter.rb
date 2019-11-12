@@ -1,8 +1,7 @@
 katz_deli = []
 
-def line
-
-
+def line(array)
+array = []
   if array.length >= 1
     array.each_with_index do |new_person, index|
     deli_line << "#{index+1}. #{person} "
