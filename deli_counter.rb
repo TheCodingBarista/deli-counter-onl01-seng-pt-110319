@@ -15,6 +15,11 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(katz_deli)
+  if array.length >= 1
+   puts 
+  else
+    puts "There is nobody waiting to be served!"
+  
   katz_deli.each do |next_person| 
     puts "Currently serving #{next_person}."
   end
