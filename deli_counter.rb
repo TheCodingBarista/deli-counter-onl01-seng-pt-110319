@@ -10,4 +10,6 @@ deli = ["The line is currently:"]
 end
 
 
-
+def take_a_number(array,string)
+  puts "Welcome, _. You are number _ in line"
+end
