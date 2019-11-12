@@ -9,7 +9,12 @@ deli = ["The line is currently:"]
   end
 end
 
+def take_a_number(katz_deli,string)
 
+    array.each_with_index do |new_person, index|
+      katz_deli << "Welcome, #{new_person}. You are number #{index+1} in line"
+  end
+end
 
 
 
