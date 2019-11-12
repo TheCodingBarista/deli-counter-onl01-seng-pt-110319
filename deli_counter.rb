@@ -15,5 +15,7 @@ def take_a_number(katz_deli, name)
 end
 
 def now_serving(katz_deli)
-  array.each do |next_person| puts "Currently serving #{next_person}."
+  array.each do |next_person| 
+    puts "Currently serving #{next_person}."
+  end
 end
