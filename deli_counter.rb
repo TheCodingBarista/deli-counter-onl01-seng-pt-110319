@@ -10,7 +10,8 @@ deli = ["The line is currently:"]
 end
 
 def take_a_number(katz_deli, name)
-      katz_deli << "Welcome, #{name}. You are number #{katz_deli.length} in line."
+      katz_deli << 
+      puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
 
 
