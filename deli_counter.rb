@@ -21,6 +21,6 @@ def now_serving(katz_deli)
     puts "There is nobody waiting to be served!"
   
   katz_deli.each do |next_person| 
-    puts 
+     
   end
 end
