@@ -9,4 +9,5 @@ array = []
     puts 
   else puts "The line is currently empty."
   end
+return array
 end
