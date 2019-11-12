@@ -1,7 +1,7 @@
 katz_deli = []
 
 def line(array)
-deli = []
+deli = ["The line is currently:"]
   if array.length >= 1
     array.each_with_index do |new_person, index|
     deli << "#{index+1}. #{new_person}"
