@@ -6,8 +6,7 @@ array = []
     array.each_with_index do |new_person, index|
     deli_line << "#{index+1}. #{person} "
     end
-    puts 
+    return array
   else puts "The line is currently empty."
   end
-return array
 end
